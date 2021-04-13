@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  padding: 3em 0;
+  background-color: rgb(240, 239, 239);
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid rgb(212, 210, 210);
+  background-color: white;
+}
+
+.top {
+  padding: 80px 40px 0;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.front-end {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: rgb(199, 199, 199);
+}
+
+.middle {
+  padding: 0em 2em;
+  background-color: rgb(241, 241, 241);
+}
